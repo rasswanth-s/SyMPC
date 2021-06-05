@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1622871639894,
+  "lastUpdate": 1622883917764,
   "repoUrl": "https://github.com/rasswanth-s/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1054,6 +1054,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.12189602394192245",
             "extra": "mean: 7.787626643400006 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kamathhrishi@gmail.com",
+            "name": "Hrishikesh Kamath",
+            "username": "kamathhrishi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "70e6eaf1eb6a7d58bb0cd580a5211b063e7b18e5",
+          "message": "Test for RSTensor send and get. Also added equal operation for RSTensor (#207)\n\n* Test for RSTensor send and get. Also added equal operation for RSTensor\r\n\r\n* Precommit hook\r\n\r\n* Modified RSTensor Test and equal operator - Session UUID\r\n\r\n* minor comment  fix\r\n\r\n* Modified Tests to incorporate uuid\r\n\r\n* Do not skip send and get tests:\r\n\r\nCo-authored-by: rasswanth-s <43314053+rasswanth-s@users.noreply.github.com>",
+          "timestamp": "2021-06-05T14:20:43+05:30",
+          "tree_id": "1006c16fce71841375ac3afcdf4514fe6ccfc536",
+          "url": "https://github.com/rasswanth-s/SyMPC/commit/70e6eaf1eb6a7d58bb0cd580a5211b063e7b18e5"
+        },
+        "date": 1622883917151,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.106488387742583,
+            "unit": "iter/sec",
+            "range": "stddev: 0.15129229564082505",
+            "extra": "mean: 9.390695278599997 sec\nrounds: 5"
           }
         ]
       }
