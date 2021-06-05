@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1622883917764,
+  "lastUpdate": 1622911481826,
   "repoUrl": "https://github.com/rasswanth-s/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1085,6 +1085,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.15129229564082505",
             "extra": "mean: 9.390695278599997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "murarugeorgec@gmail.com",
+            "name": "George Muraru",
+            "username": "gmuraru"
+          },
+          "committer": {
+            "email": "murarugeorgec@gmail.com",
+            "name": "George Muraru",
+            "username": "gmuraru"
+          },
+          "distinct": true,
+          "id": "79b51c5f677e4f0537f1cf5c4cfd72c35d0fad51",
+          "message": "Add SNYK Token",
+          "timestamp": "2021-06-05T13:38:02+01:00",
+          "tree_id": "b31f4934442d9b455365b8fd75781de178e474da",
+          "url": "https://github.com/rasswanth-s/SyMPC/commit/79b51c5f677e4f0537f1cf5c4cfd72c35d0fad51"
+        },
+        "date": 1622911481302,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.107324636993366,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1460731079222562",
+            "extra": "mean: 9.31752510900002 sec\nrounds: 5"
           }
         ]
       }
