@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1622911481826,
+  "lastUpdate": 1623053902442,
   "repoUrl": "https://github.com/rasswanth-s/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1116,6 +1116,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.1460731079222562",
             "extra": "mean: 9.31752510900002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "spsharan2000@gmail.com",
+            "name": "S P Sharan",
+            "username": "Syzygianinfern0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5144a24779a72778c22a2a539b2b5e1aca4f2991",
+          "message": "Add Softmax (#215)\n\n* Add softmax boilerplate\r\nTODO: Implement torch.sum\r\n\r\n* Increase robustness of tests\r\nSquash a few bugs\r\n\r\n* Type hints in docstring\r\n\r\n* Remove unnecessary import\r\nI think\r\n\r\n* 0*tensor -> przs",
+          "timestamp": "2021-06-07T08:40:10+01:00",
+          "tree_id": "c00f86d4cc4671b9ac8015966b34ac4fdffa20c7",
+          "url": "https://github.com/rasswanth-s/SyMPC/commit/5144a24779a72778c22a2a539b2b5e1aca4f2991"
+        },
+        "date": 1623053901887,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.10824453538498106,
+            "unit": "iter/sec",
+            "range": "stddev: 0.038953615454833584",
+            "extra": "mean: 9.238341653399994 sec\nrounds: 5"
           }
         ]
       }
