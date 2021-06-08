@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623053902442,
+  "lastUpdate": 1623124022079,
   "repoUrl": "https://github.com/rasswanth-s/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1147,6 +1147,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.038953615454833584",
             "extra": "mean: 9.238341653399994 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "spsharan2000@gmail.com",
+            "name": "S P Sharan",
+            "username": "Syzygianinfern0"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a4c83dd9ce936788cf53156503f17021ca83edee",
+          "message": "Add len method (#224)",
+          "timestamp": "2021-06-07T21:56:13+05:30",
+          "tree_id": "2855bc5fc7ffdb9e7216ea703bcab9f7ef0871cf",
+          "url": "https://github.com/rasswanth-s/SyMPC/commit/a4c83dd9ce936788cf53156503f17021ca83edee"
+        },
+        "date": 1623124021306,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.1253979668938807,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06407171363354829",
+            "extra": "mean: 7.974610950800025 sec\nrounds: 5"
           }
         ]
       }
