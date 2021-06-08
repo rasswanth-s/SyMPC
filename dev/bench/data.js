@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623124022079,
+  "lastUpdate": 1623162708446,
   "repoUrl": "https://github.com/rasswanth-s/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1178,6 +1178,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.06407171363354829",
             "extra": "mean: 7.974610950800025 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "me@madhavajay.com",
+            "name": "Madhava Jay",
+            "username": "madhavajay"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "16fa17ab61fc37f0aba2f565bda812ae55eb1cdc",
+          "message": "torch 1.8.1 (#225)\n\n* Bumped up to allow torch==1.8.1 torchcsprng==0.2.1\r\n\r\n* Fixing issue with torchcsprng==0.2.1 on Windows\r\n\r\n* Install Torch CPU builds for windows first\r\n\r\n* Fixed didnt move shell in workflow\r\n\r\n* Install CPU builds on linux and windows for all torch\r\n\r\n* Renaming step in CI",
+          "timestamp": "2021-06-08T18:05:58+05:30",
+          "tree_id": "22d9407c43f578db10480c332f9c3c1e60324621",
+          "url": "https://github.com/rasswanth-s/SyMPC/commit/16fa17ab61fc37f0aba2f565bda812ae55eb1cdc"
+        },
+        "date": 1623162707614,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.12405329192366968,
+            "unit": "iter/sec",
+            "range": "stddev: 0.14355223323940752",
+            "extra": "mean: 8.061051701999997 sec\nrounds: 5"
           }
         ]
       }
