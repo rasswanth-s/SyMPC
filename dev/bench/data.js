@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623162708446,
+  "lastUpdate": 1623381612611,
   "repoUrl": "https://github.com/rasswanth-s/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1209,6 +1209,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.14355223323940752",
             "extra": "mean: 8.061051701999997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kamathhrishi@gmail.com",
+            "name": "Hrishikesh Kamath",
+            "username": "kamathhrishi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f2c2804d77c8579e1cfd0b33877e660749d4b2cf",
+          "message": "Distribute shares and reconstruct functionality for RSTensor  (#220)\n\n* Initialize distribute and reconstruct for RSTensor\r\n\r\n* Better docstrings\r\n\r\n* Update check for FPEncoder\r\n\r\n* Precommit hook\r\n\r\n* Moved test to RSTensor\r\n\r\n* Allow base=1 and precision=0\r\n\r\n* Added number of shares test and small changes\r\n\r\n* Fix test and add session uiud\r\n\r\n* Add session uiud and fix tests\r\n\r\n* fix get_shares parameter\r\n\r\n* FIx tests\r\n\r\n* Precommit hook\r\n\r\n* Modify protocol definition in tests\r\n\r\n* Refractored distribute shares code\r\n\r\n* Precommit hook\r\n\r\n* Malicious mode of reconstruction\r\n\r\n* Make tests pass\r\n\r\n* Added docstrings and type hints\r\n\r\n* Added tests for malicious security exception, getitem and setitem for RSTensor and some refractoring\r\n\r\n* Fix reconstruct function\r\n\r\n* Fixed test\r\n\r\n* Basic refractoring\r\n\r\n* Removed some blank lines\r\n\r\n* Readd security level check\r\n\r\n* Small changes for cleaner code\r\n\r\n* Correct setitem in RSTensor\r\n\r\n* Update .gitignore\r\n\r\n* Update .gitignore\r\n\r\n* Update docstrings\r\n\r\n* Small variable name change\r\n\r\n* Rename less parties falcon test",
+          "timestamp": "2021-06-11T08:44:10+05:30",
+          "tree_id": "27b55f078d981ae7d55545d516803110090ea4f6",
+          "url": "https://github.com/rasswanth-s/SyMPC/commit/f2c2804d77c8579e1cfd0b33877e660749d4b2cf"
+        },
+        "date": 1623381611970,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.13107239479200591,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05851030013988835",
+            "extra": "mean: 7.629371551400004 sec\nrounds: 5"
           }
         ]
       }
