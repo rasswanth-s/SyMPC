@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623381612611,
+  "lastUpdate": 1623423385467,
   "repoUrl": "https://github.com/rasswanth-s/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1240,6 +1240,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05851030013988835",
             "extra": "mean: 7.629371551400004 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "43314053+rasswanth-s@users.noreply.github.com",
+            "name": "rasswanth",
+            "username": "rasswanth-s"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d84302dd1f70db9048edb5b0f4d8779f959f2d04",
+          "message": "Custom value for pytest workers (#226)\n\n* Added custom value\r\n\r\n* Incorporate Shares VM's for tests\r\n\r\n* Deleted node store clear\r\n\r\n* Revert Shared VM's\r\n\r\n* Included pytest-order for ordering of flaky tests\r\n\r\n* Adding -x flag ,to stop tests after first failure\r\n\r\n* Removed Windows CI",
+          "timestamp": "2021-06-11T19:49:55+05:30",
+          "tree_id": "ae03e03f7922e7d833da68d3b6cea30f562672d8",
+          "url": "https://github.com/rasswanth-s/SyMPC/commit/d84302dd1f70db9048edb5b0f4d8779f959f2d04"
+        },
+        "date": 1623423384506,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.11482048183804161,
+            "unit": "iter/sec",
+            "range": "stddev: 0.043507923866519076",
+            "extra": "mean: 8.709247548800011 sec\nrounds: 5"
           }
         ]
       }
