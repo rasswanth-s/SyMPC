@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623423385467,
+  "lastUpdate": 1623427649594,
   "repoUrl": "https://github.com/rasswanth-s/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1271,6 +1271,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.043507923866519076",
             "extra": "mean: 8.709247548800011 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "murarugeorgec@gmail.com",
+            "name": "George-Cristian Muraru",
+            "username": "gmuraru"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "19b86b8d47f2d69a9c9c5f431bf1ca89951346f0",
+          "message": "Add debug info and reduce tolerance (#234)",
+          "timestamp": "2021-06-11T20:43:12+05:30",
+          "tree_id": "37683d80e7c469c11963fd27ba3e6842cb2354bc",
+          "url": "https://github.com/rasswanth-s/SyMPC/commit/19b86b8d47f2d69a9c9c5f431bf1ca89951346f0"
+        },
+        "date": 1623427648684,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.14362462400313286,
+            "unit": "iter/sec",
+            "range": "stddev: 0.25469630456043435",
+            "extra": "mean: 6.962594380599995 sec\nrounds: 5"
           }
         ]
       }
