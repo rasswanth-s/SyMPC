@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623427649594,
+  "lastUpdate": 1623566702694,
   "repoUrl": "https://github.com/rasswanth-s/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1302,6 +1302,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.25469630456043435",
             "extra": "mean: 6.962594380599995 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "43314053+rasswanth-s@users.noreply.github.com",
+            "name": "rasswanth",
+            "username": "rasswanth-s"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "09a62f5f096855e569fbe776061fad71c84b23ec",
+          "message": "Implementation of PRRS(Pseudo-Random Random Share) (#228)\n\n* Added PRRS to Session\r\n\r\n* Added tests for PRRS and PRZS\r\n\r\n* Fix typos\r\n\r\n* Modified Docstrings -CTR mode",
+          "timestamp": "2021-06-12T20:43:34+05:30",
+          "tree_id": "3ebaf689beef573bb74a9c3836ae0c6d1a6b4c1e",
+          "url": "https://github.com/rasswanth-s/SyMPC/commit/09a62f5f096855e569fbe776061fad71c84b23ec"
+        },
+        "date": 1623566701617,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.13762207928524162,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0995998355270428",
+            "extra": "mean: 7.266275914400012 sec\nrounds: 5"
           }
         ]
       }
