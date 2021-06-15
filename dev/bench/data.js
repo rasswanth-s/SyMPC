@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623566702694,
+  "lastUpdate": 1623775607745,
   "repoUrl": "https://github.com/rasswanth-s/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1333,6 +1333,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0995998355270428",
             "extra": "mean: 7.266275914400012 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "43314053+rasswanth-s@users.noreply.github.com",
+            "name": "rasswanth",
+            "username": "rasswanth-s"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2005f3393c03296bbdf18cecafc9c0582783e84f",
+          "message": "Implementation of add/sub operations -RSTensor (#242)\n\n* Added add/sub operations -RSTensor\r\n\r\n* fix typo and modify docstring\r\n\r\n* Added tests for two MPCTensor\r\n\r\n* Added local RSTensor tests\r\n\r\n* changes test names\r\n\r\n* change rank format\r\n\r\n* Refactored and added tests for different share class",
+          "timestamp": "2021-06-13T22:36:00+05:30",
+          "tree_id": "3c45a7e86d83ebf978b8524e6fd0d860ba1ae9d6",
+          "url": "https://github.com/rasswanth-s/SyMPC/commit/2005f3393c03296bbdf18cecafc9c0582783e84f"
+        },
+        "date": 1623775606687,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.12715838622526035,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05542158150025068",
+            "extra": "mean: 7.864208014000002 sec\nrounds: 5"
           }
         ]
       }
