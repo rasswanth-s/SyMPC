@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623775607745,
+  "lastUpdate": 1624035608178,
   "repoUrl": "https://github.com/rasswanth-s/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1364,6 +1364,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05542158150025068",
             "extra": "mean: 7.864208014000002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "danielorihuela@users.noreply.github.com",
+            "name": "danielorihuela",
+            "username": "danielorihuela"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "94fd2f3a440d0bad4a289a1fdece9b436fa34d5a",
+          "message": "docs: readme (#195)\n\n* docs: readme skeleton\r\n\r\n* docs: recover disclaimer\r\n\r\n* docs: add installation and getting started\r\n\r\n* docs: fix typo\r\n\r\n* docs: add restructured readme\r\n\r\n* docs: remove markdown readme\r\n\r\n* docs: increase subtitle size\r\n\r\nCo-authored-by: S P Sharan <spsharan2000@gmail.com>\r\n\r\n* docs: PySyft wording\r\n\r\nCo-authored-by: S P Sharan <spsharan2000@gmail.com>\r\n\r\n* docs: make text concise and improve readability\r\n\r\nCo-authored-by: S P Sharan <spsharan2000@gmail.com>\r\n\r\n* docs: dockerfile section in readme\r\n\r\n* docs: improve docker understanding\r\n\r\n* docs: docker re-wording\r\n\r\nCo-authored-by: S P Sharan <spsharan2000@gmail.com>",
+          "timestamp": "2021-06-17T23:02:12+05:30",
+          "tree_id": "b40b9eb4716b545c39efa47fb0eecdef79aae92f",
+          "url": "https://github.com/rasswanth-s/SyMPC/commit/94fd2f3a440d0bad4a289a1fdece9b436fa34d5a"
+        },
+        "date": 1624035604285,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.13798659583046147,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04652971790491253",
+            "extra": "mean: 7.247080732599994 sec\nrounds: 5"
           }
         ]
       }
