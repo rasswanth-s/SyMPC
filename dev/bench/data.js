@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1624372572298,
+  "lastUpdate": 1624617895761,
   "repoUrl": "https://github.com/rasswanth-s/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1426,6 +1426,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.27137342450161756",
             "extra": "mean: 8.558465516399997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kamathhrishi@gmail.com",
+            "name": "Hrishikesh Kamath",
+            "username": "kamathhrishi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "153238fd7b3b8ad3f30e988bd899f418dfe606db",
+          "message": "Falcon Semi-honest Integer multiplication operation  (#243)\n\n* Initialized Falcon multiplication operation, refractored RSTensor and MPCTensor\r\n\r\n* Added malicious security test and small refractoring in test\r\n\r\n* Added integer matrix and value test. Also removed unecessary op_str argument in RSTensor sanity check\r\n\r\n* Update src/sympc/protocol/falcon/falcon.py\r\n\r\nCo-authored-by: Anubhav Raj Singh <anubhavraj.08@gmail.com>\r\n\r\n* Minor refractoring\r\n\r\n* Run precommit\r\n\r\n* Update src/sympc/tensor/replicatedshare_tensor.py\r\n\r\nCo-authored-by: rasswanth <43314053+rasswanth-s@users.noreply.github.com>\r\n\r\n* Precommit hook\r\n\r\n* Used PRZS for random value generation and changed shape value\r\n\r\n* Small refractoring\r\n\r\n* Little refractoring\r\n\r\n* Small changes for cleaner code\r\n\r\n* Some changes\r\n\r\n* Some refractoring\r\n\r\n* Fixed bug\r\n\r\n* Added parallel execution of resharing and small refractoring\r\n\r\n* Added chceck for number of parties\r\n\r\n* added check for 3 parties\r\n\r\n* Parallelized share multiplication and small refractoring\r\n\r\n* Combined parallelized execution into one\r\n\r\n* Modified parallel execution wih debug statements\r\n\r\n* Modified parallel execution wih debug statements\r\n\r\n* Parallelized Falcon mul sucessfully\r\n\r\n* Added type annotation and initiated alt session in sanity check\r\n\r\n* Added type annotation and initiated alt session in sanity check\r\n\r\n* Made PRZS masking inside parallel function\r\n\r\n* Made PRZS masking inside parallel function\r\n\r\n* Remove blank line\r\n\r\n* Remove blank lines\r\n\r\n* PRecommit hook\r\n\r\n* Add comment\r\n\r\n* Remove blank lines\r\n\r\n* Refractored sanity check\r\n\r\n* Small refractoring\r\n\r\n* Small changes\r\n\r\n* Remove shape from allowlist\r\n\r\nCo-authored-by: Anubhav Raj Singh <anubhavraj.08@gmail.com>\r\nCo-authored-by: rasswanth <43314053+rasswanth-s@users.noreply.github.com>",
+          "timestamp": "2021-06-25T15:26:41+05:30",
+          "tree_id": "ad3393a91e569e4e3377434bfb32313db8c1820a",
+          "url": "https://github.com/rasswanth-s/SyMPC/commit/153238fd7b3b8ad3f30e988bd899f418dfe606db"
+        },
+        "date": 1624617895267,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.1404577905326516,
+            "unit": "iter/sec",
+            "range": "stddev: 0.07074794849878063",
+            "extra": "mean: 7.119576608800026 sec\nrounds: 5"
           }
         ]
       }
