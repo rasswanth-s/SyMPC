@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1624692449417,
+  "lastUpdate": 1624696147256,
   "repoUrl": "https://github.com/rasswanth-s/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1488,6 +1488,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03360606863885651",
             "extra": "mean: 7.939760160400022 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "danielorihuela@users.noreply.github.com",
+            "name": "danielorihuela",
+            "username": "danielorihuela"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e01d4d319140fbf07cfc124d0e21fbe9aa84ee0f",
+          "message": "Feat/ci scheduled tests (#253)\n\n* feat: test latest version\r\n\r\n* feat: scheduled tests\r\n\r\n* Update .github/workflows/tests.yml\r\n\r\nCo-authored-by: rasswanth <43314053+rasswanth-s@users.noreply.github.com>\r\n\r\n* feat: schedule 2am UTC\r\n\r\nCo-authored-by: rasswanth <43314053+rasswanth-s@users.noreply.github.com>",
+          "timestamp": "2021-06-26T13:52:43+05:30",
+          "tree_id": "f2aa3842d0570673bffe6b342e2bf5636b0183a5",
+          "url": "https://github.com/rasswanth-s/SyMPC/commit/e01d4d319140fbf07cfc124d0e21fbe9aa84ee0f"
+        },
+        "date": 1624696146699,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.11814346277538124,
+            "unit": "iter/sec",
+            "range": "stddev: 0.18250258626073604",
+            "extra": "mean: 8.46428550940002 sec\nrounds: 5"
           }
         ]
       }
