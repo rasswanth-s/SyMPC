@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1624851852534,
+  "lastUpdate": 1624860651867,
   "repoUrl": "https://github.com/rasswanth-s/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1550,6 +1550,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.12493680542030633",
             "extra": "mean: 8.02429819099999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "43314053+rasswanth-s@users.noreply.github.com",
+            "name": "rasswanth",
+            "username": "rasswanth-s"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "99c559bfd82ee9c2f61707fbf258f83f5bad0223",
+          "message": "revert to syft latest (#263)",
+          "timestamp": "2021-06-28T11:34:39+05:30",
+          "tree_id": "80c287c6a4f4644c082b0476e6b426600887696d",
+          "url": "https://github.com/rasswanth-s/SyMPC/commit/99c559bfd82ee9c2f61707fbf258f83f5bad0223"
+        },
+        "date": 1624860651283,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.5392990798888955,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028339036323735738",
+            "extra": "mean: 1.8542586800000038 sec\nrounds: 5"
           }
         ]
       }
