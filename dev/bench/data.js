@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1624860651867,
+  "lastUpdate": 1625139390667,
   "repoUrl": "https://github.com/rasswanth-s/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1581,6 +1581,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.028339036323735738",
             "extra": "mean: 1.8542586800000038 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "43314053+rasswanth-s@users.noreply.github.com",
+            "name": "rasswanth",
+            "username": "rasswanth-s"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "d6411e2dd0871976f97266a335afd2fc9d674dce",
+          "message": "ABY3 Truncation Protocol -Semihonest (#257)\n\n* Changed relative paths to absolute paths\r\n\r\n* Linting\r\n\r\n* Added truncation\r\n\r\n* Changed parties\r\n\r\n* Linting\r\n\r\n* Added ABY3 Protocol folder\r\n\r\n* modified to trunc1 algorithm\r\n\r\n* Added more tests\r\n\r\n* Modified Falcon Tests\r\n\r\n* Refactored and modified tests\r\n\r\n* added tests and made random_gen global\r\n\r\n* Minor refactoring\r\n\r\n* modfied redistribution and added tests\r\n\r\n* revert distribution and modify type annotations\r\n\r\n* modified resharing\r\n\r\n* Added support for tensor pointer\r\n\r\n* Increased test coverage\r\n\r\n* Modified truncation algorithm name\r\n\r\n* modified names and minor refactor\r\n\r\n* unit test name_changes\r\n\r\n* remove comments aby3",
+          "timestamp": "2021-07-01T14:25:54+05:30",
+          "tree_id": "ad68c41a7cd33e79dda47593001fb69b7c6d4fc1",
+          "url": "https://github.com/rasswanth-s/SyMPC/commit/d6411e2dd0871976f97266a335afd2fc9d674dce"
+        },
+        "date": 1625139389571,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.5287750294609264,
+            "unit": "iter/sec",
+            "range": "stddev: 0.041280442919116575",
+            "extra": "mean: 1.891163432999997 sec\nrounds: 5"
           }
         ]
       }
