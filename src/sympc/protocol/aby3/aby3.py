@@ -88,6 +88,7 @@ class ABY3(metaclass=Protocol):
             List["ReplicatedSharedTensor"] : Truncated shares.
         """
         tensor_type = get_type_from_ring(ring_size)
+        
         rand_value = torch.empty(size=shape, dtype=tensor_type).random_(generator=gen)
         base = config.encoder_base
         precision = config.encoder_precision
