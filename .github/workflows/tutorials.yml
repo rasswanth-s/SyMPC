@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - con_main
     paths:
       - "**.py"
       - "**.ipynb"
