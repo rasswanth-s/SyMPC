@@ -308,3 +308,4 @@ allowed_external_attrs = [
 
 allowed_external_attrs.extend(replicated_shared_tensor_attrs)
 allowed_external_attrs.extend(share_tensor_attrs)
+
