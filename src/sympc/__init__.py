@@ -46,13 +46,5 @@ def add_methods_tensor_syft() -> None:
         setattr(torch.Tensor, method.__name__, method)
 
 
-try:
-    # Change here if project is renamed and does not equal the package name
-    dist_name = __name__
-    __version__ = get_distribution(dist_name).version
-except DistributionNotFound:
-    __version__ = "unknown"
-finally:
-    del get_distribution, DistributionNotFound
 
 add_methods_tensor_syft()
